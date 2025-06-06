@@ -1,0 +1,57 @@
+.btn-menu {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: #40413d00;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+  font-size: 12px;
+  margin: 15px 0px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.btn-:before {
+    content: '';
+    background: linear-gradient(111deg, #0f0f0f00, #0f0f0f00, #0f0f0f00, #0f0f0f00, #0f0f0f00, #0f0f0f00, #0f0f0f00);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 300%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-menu:after {
+    background: transparent;
+}
+
+.btn-menu:before {
+    opacity: 1;
+}
+
+.btn-menu:hover {
+    color: #fff;
+}
+
+.btn-menu:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f00;
+    color: #ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 17px;
+}
