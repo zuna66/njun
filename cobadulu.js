@@ -401,4 +401,14 @@ function updateTotalScoreCardOne() {
   updateRandomNumbers(providerCardTwo);
   updateRandomNumbers(providerCardThree);
   updateRandomNumbers(providerCardFour);
-});</script>
+});
+
+var bb855 = document.getElementsByClassName('sidebar-nav')[0];
+var html = "<li><a class='btn-menu' href='/' target='_blank'><i class='fa fa-sort-numeric-asc'></i> Prediksi Togel</a></li><li><a class='btn-menu' href='/' target='_blank'><i class='fa fa-rocket'></i>Live RTP Slot</a></li><li><a class='btn-menu' href='/' target='_blank'><i class='fa fa-money'></i> Bukti Pembayaran </a></li>";
+bb855.insertAdjacentHTML('beforeend',html);
+
+    document.addEventListener("DOMContentLoaded",function(){
+		$('<a title="Bandar Togel Terpercaya" target="_blank" href="/"><img src="https://ik.imagekit.io/9igvj4fima/NEW%20GIFT%20XOTOGEL.gif?updatedAt=1746252507600" style="width:100%; margin-top: 15px;" /></ a>').insertAfter("#slider");
+
+	},false);
+$(document).ready(function () {$('.copyright').append('<div class="wrapper"><div class="center-text"><a title="DMCA.com Protection Status" class="dmca-badge" href="//www.dmca.com/Protection/Status.aspx?ID=b90904fe-3361-43e0-abec-5d1354ae8099" target="_blank"><img alt="DMCA.com Protection Status" src ="https://images.dmca.com/Badges/_dmca_premi_badge_5.png?ID=b90904fe-3361-43e0-abec-5d1354ae8099" style="margin: 0 auto;"></a></div></div>');});</script>
